@@ -22,7 +22,7 @@ public class Main {
 		
 		//make scanner object
 		Scanner input = new Scanner(System.in);
-		tuna tunaObject = new tuna();
+		tuna tunaObject = new tuna("Kelsey");
 		
 		System.out.println("Enter your name here: ");
 		String name = input.nextLine();
@@ -33,5 +33,8 @@ public class Main {
 		String temp = input.nextLine();
 		tunaObject.setName(temp);
 		tunaObject.saying();
+		
+		condoperand condo = new condoperand();
+		condo.yaho();
 	}
 }

@@ -11,6 +11,12 @@ public class tuna {
 	
 	private String girlName;
 	
+	//create constructor
+	public tuna(String name){
+		girlName = name;
+	}
+	
+	//get set
 	public void setName(String name){
 		girlName = name;
 	}
@@ -21,5 +27,6 @@ public class tuna {
 	
 	public void saying(){
 		System.out.printf("Your first gf was %s", getName());
+		System.out.println();
 	}
 }
