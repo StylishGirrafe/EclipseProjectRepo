@@ -36,5 +36,9 @@ public class Main {
 		
 		condoperand condo = new condoperand();
 		condo.yaho();
+		
+		compoundInterest coi = new compoundInterest();
+		coi.ahoy();
+		coi.ahoyy();
 	}
 }
