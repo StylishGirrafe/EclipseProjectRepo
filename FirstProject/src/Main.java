@@ -40,5 +40,8 @@ public class Main {
 		compoundInterest coi = new compoundInterest();
 		coi.ahoy();
 		coi.ahoyy();
+		
+		testLoop tl = new testLoop();
+		tl.ayo();
 	}
 }
