@@ -43,5 +43,8 @@ public class Main {
 		
 		testLoop tl = new testLoop();
 		tl.ayo();
+		
+		arrayCounters ac = new arrayCounters();
+		ac.arrayCount();
 	}
 }
