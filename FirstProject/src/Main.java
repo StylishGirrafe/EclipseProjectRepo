@@ -46,5 +46,12 @@ public class Main {
 		
 		arrayCounters ac = new arrayCounters();
 		ac.arrayCount();
+		
+		//Time class
+		Time timeObject = new Time();
+		System.out.println(timeObject.toMilitary());
+		timeObject.setTime(13, 27, 6);
+		System.out.println(timeObject.toMilitary());
+		System.out.println(timeObject.toString());
 	}
 }
