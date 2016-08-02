@@ -64,5 +64,8 @@ public class Main {
 		
 		//toString
 		potpie potObject = new potpie(4,5,6);
+		composition comp = new composition("Greg", potObject);
+		
+		System.out.println(comp);
 	}
 }
