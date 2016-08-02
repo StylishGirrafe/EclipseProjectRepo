@@ -67,5 +67,9 @@ public class Main {
 		composition comp = new composition("Greg", potObject);
 		
 		System.out.println(comp);
+		
+		//enumeration
+		for(enumeration people: enumeration.values()) //enumeration.values() is a built in array
+			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
 	}
 }
