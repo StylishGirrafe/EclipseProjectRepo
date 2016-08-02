@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.EnumSet;
+
 public class Main {
 /*public class apples {
 	
@@ -71,5 +73,17 @@ public class Main {
 		//enumeration
 		for(enumeration people: enumeration.values()) //enumeration.values() is a built in array
 			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
+		
+		//bisa atur mulai darimana sampe mana
+		System.out.println("\nAnd now for the range of constants!\n");
+		for (enumeration people: EnumSet.range(enumeration.kelsey, enumeration.candy)){
+			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
+		}
+		
+		//statics
+		statics stat1 = new statics("Megan","Fox");
+		statics stat2 = new statics("Natalie","Portman");
+		statics stat3 = new statics("Taylor","Swift");
 	}
+
 }
