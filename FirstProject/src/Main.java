@@ -53,5 +53,16 @@ public class Main {
 		timeObject.setTime(13, 27, 6);
 		System.out.println(timeObject.toMilitary());
 		System.out.println(timeObject.toString());
+		
+		//multipleConstructors
+		multipleConstructors mc = new multipleConstructors();
+		multipleConstructors mc2 = new multipleConstructors(5);
+		multipleConstructors mc3 = new multipleConstructors(5,13);
+		multipleConstructors mc4 = new multipleConstructors(5,13,43);
+		
+		System.out.printf("%s\n", mc.toMilitary());
+		
+		//toString
+		potpie potObject = new potpie(4,5,6);
 	}
 }
