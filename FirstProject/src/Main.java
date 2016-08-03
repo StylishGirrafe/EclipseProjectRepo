@@ -97,6 +97,11 @@ public class Main {
 			finalObject.add();
 			System.out.printf("%s ", finalObject);
 		}
+		
+		//inheritance
+		inheritance inh = new inheritance();
+		inh.eat(); //see? ini ngambil method dari foodInherit
+		
 	}
 
 }
