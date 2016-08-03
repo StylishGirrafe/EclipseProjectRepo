@@ -84,6 +84,19 @@ public class Main {
 		statics stat1 = new statics("Megan","Fox");
 		statics stat2 = new statics("Natalie","Portman");
 		statics stat3 = new statics("Taylor","Swift");
+		
+		System.out.println();
+		System.out.println(stat1.getFirst());
+		System.out.println(stat1.getLast());
+		System.out.println(stat1.getMembers());
+		
+		//finals
+		finals finalObject = new finals(10);
+		
+		for(int i=0;i<5;i++){
+			finalObject.add();
+			System.out.printf("%s ", finalObject);
+		}
 	}
 
 }
